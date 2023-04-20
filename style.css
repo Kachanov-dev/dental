@@ -6310,7 +6310,7 @@ object {
 ## Miscellaneous
 --------------------------------------------------------------*/
 .site-overlay {
-  cursor: url(https://via.placeholder.com/32x32.png) 16 16, default;
+  /*cursor: url(https://via.placeholder.com/32x32.png) 16 16, default;*/
   background: transparent;
   width: 100vw;
   height: 100vh;
@@ -7535,7 +7535,7 @@ section {
   background-image: url('https://via.placeholder.com/1920x500.png');
 }
 .page-header-contact {
-  background-image: url('https://via.placeholder.com/1920x500.png');
+  background-image: url('./images/contact/header.jpg');
 }
 .pheader-service-detail1 {
   background-image: url('https://via.placeholder.com/1920x500.png');
@@ -7590,7 +7590,7 @@ section {
 .contact-right {
   padding-left: 75px;
   padding-right: 40px;
-  background-image: url('https://via.placeholder.com/510x680.png');
+  background-image: url('./images/contact/elementor.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9194,6 +9194,17 @@ ol.style-default li:last-child {
   color: rgb(26, 26, 26);
   border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+
+.topbar-info-white li, i {
+  color: white;
+  font-weight: 600;
+}
+
+.topbar-info-white a {
+  color: white;
+}
+
 .topbar-info li i {
   padding-right: 9px;
 }
