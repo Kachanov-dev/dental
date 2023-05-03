@@ -7559,7 +7559,7 @@ section {
   background-image: url(https://via.placeholder.com/1920x500.png);
 }
 .pheader-faq {
-  background-image: url(https://via.placeholder.com/1920x500.png);
+  background-image: url(./images/price-list/header.jpg);
 }
 .pheader-portfolio {
   background-image: url(https://via.placeholder.com/1920x500.png);
@@ -7812,6 +7812,14 @@ section {
 .work-content .ot-heading {
   padding: 21px 0 25px 0;
 }
+
+.ot-accordions-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
 .ot-accordions .acc-item .acc-toggle span.up {
   display: none;
 }
@@ -8870,6 +8878,10 @@ ol.style-default li:last-child {
 .max-w-350 {
   max-width: 350px;
 }
+.max-w-800 {
+  width: 100%;
+  max-width: 800px;
+}
 .benefits-desc-1 h2 {
   color: #fff;
   line-height: 60px;
@@ -9169,6 +9181,7 @@ ol.style-default li:last-child {
 }
 .header-topbar {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 1);
 }
 .topbar-socials.list-social a {
   border-color: transparent;
@@ -9195,8 +9208,8 @@ ol.style-default li:last-child {
   border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-
-.topbar-info-white li, i {
+.topbar-info-white li,
+i {
   color: white;
   font-weight: 600;
 }
@@ -10500,11 +10513,13 @@ ol.style-default li:last-child {
 }
 /* Footer */
 .site-footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
   background-color: #1a1a1a;
   color: #a3a3a3;
 }
+.footer-main {
+  padding: 80px 0;
+}
+
 .widget-footer ul {
   margin: 0;
   padding-left: 0;
@@ -10727,4 +10742,9 @@ ol.style-default li:last-child {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.acc-content th,
+td {
+  text-align: center;
 }
