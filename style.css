@@ -45,8 +45,8 @@ Tags: one-column, two-columns, left-sidebar, right-sidebar, full-width-template,
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-@import url('https://fonts.googleapis.com/css?family=Titillium Web:200,300,300i,400,400i,600,600i,700,700i,900');
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,300i,400,400i,600,600i,700,700i,900');
 @import url('https://fonts.googleapis.com/css?family=Josefin Sans:300,300i,400,400i,500,500i,600,600i,700,700i');
 
 html {
@@ -376,7 +376,7 @@ select,
 optgroup,
 textarea {
   color: #555555;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.875;
   font-weight: 400;
@@ -394,7 +394,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 1.4;
   margin: 0 0 20px;
@@ -451,7 +451,7 @@ blockquote {
   font-weight: 400;
   padding: 50px 160px 0;
   position: relative;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #1a1a1a;
   text-align: center;
 }
@@ -650,7 +650,7 @@ big {
 }
 
 .number-stroke {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   font-weight: 800;
   line-height: 1;
   white-space: nowrap;
@@ -678,7 +678,7 @@ big {
 
 .btn-details {
   position: relative;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   font-size: 13px;
   font-weight: 600;
   color: #1a1a1a;
@@ -1144,7 +1144,7 @@ td {
   text-transform: uppercase;
   white-space: nowrap;
   vertical-align: middle;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   font-weight: 600;
   text-align: center;
   background: #1a1a1a;
@@ -1561,7 +1561,7 @@ a:active {
 }
 
 .main-navigation ul {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   font-weight: normal;
   font-size: 14px;
   list-style: none;
@@ -1980,7 +1980,7 @@ a:active {
     vertical-align: middle;
   }
   .vertical-main-navigation ul {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Roboto Web', sans-serif;
     font-weight: normal;
     font-size: 14px;
     margin: 0px 0px;
@@ -2271,7 +2271,7 @@ a:active {
   }
 
   .mobile_nav .mobile_mainmenu {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Roboto Web', sans-serif;
     margin: 0;
     padding: 0;
   }
@@ -2386,7 +2386,7 @@ a:active {
   width: 100%;
   height: 500px;
   color: #fff;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   font-weight: 500;
   font-size: 14px;
   text-align: center;
@@ -2631,7 +2631,7 @@ a:active {
   margin-bottom: -10px;
 }
 .post-box .post-cat a {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 600;
@@ -2705,7 +2705,7 @@ a:active {
 .post-box .link-box a {
   font-size: 22px;
   font-weight: 400;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   color: #1a1a1a;
 }
 .post-box .link-box i {
@@ -2738,7 +2738,7 @@ a:active {
   font-size: 22px;
   font-weight: 400;
   line-height: 36px;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   color: #1a1a1a;
 }
 .post-box .quote-box .quote-text span {
@@ -2774,7 +2774,7 @@ a:active {
 }
 .page-pagination li a,
 .page-pagination li span {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   font-size: 16px;
   color: #bfbfbf;
   font-weight: 600;
@@ -2829,7 +2829,7 @@ a:active {
   color: #1a1a1a;
   background: #fff;
   font-size: 14px !important;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   text-transform: lowercase;
   font-weight: 400;
   padding: 8px 12px;
@@ -2856,7 +2856,7 @@ a:active {
   line-height: 30px;
   font-weight: 500;
   font-size: 14px;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -2954,7 +2954,7 @@ a:active {
 
 .drop-cap,
 .elementor-drop-cap {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   float: left;
   text-align: center;
   background: #fff;
@@ -3286,7 +3286,7 @@ a:active {
   color: #1a1a1a;
   background: #fff;
   font-size: 14px !important;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   text-transform: lowercase;
   font-weight: 400;
   padding: 8px 12px;
@@ -3302,7 +3302,7 @@ a:active {
 }
 
 .widget-area {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
 }
 .widget-area .widget {
   margin-bottom: 43px;
@@ -3484,7 +3484,7 @@ a:active {
   color: #fff;
 }
 .author-widget_wrapper .author-widget_text {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 28px;
   color: #a3a3a3;
@@ -3908,7 +3908,7 @@ object {
 ## Video Popup
 --------------------------------------------------------------*/
 .video-popup span {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 600;
@@ -4140,7 +4140,7 @@ object {
 ## Counter
 --------------------------------------------------------------*/
 .ot-counter {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   display: block;
   text-align: center;
 }
@@ -4181,7 +4181,7 @@ object {
 }
 .ot-countdown li span {
   font-size: 120px;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   display: block;
   margin-bottom: 13px;
   white-space: nowrap;
@@ -4656,7 +4656,7 @@ object {
   cursor: pointer;
   justify-content: space-between;
   overflow: hidden;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   font-size: 20px;
   color: #1a1a1a;
   padding: 15px 0 20px;
@@ -4710,7 +4710,7 @@ object {
   overflow: hidden;
 }
 .ot-tabs .tab-link {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   min-width: 176px;
   margin-right: 20px;
   padding: 12px 0;
@@ -4781,7 +4781,7 @@ object {
   font-weight: 700;
   font-size: 14px;
   color: #1a1a1a;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   font-weight: 600;
 }
 .ot-progress .pname {
@@ -4841,7 +4841,7 @@ object {
   top: 50%;
   left: 0;
   text-align: center;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   font-weight: 300;
   font-size: 30px;
   margin-top: -15px;
@@ -5693,7 +5693,7 @@ object {
 }
 
 .member-info {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   list-style: none;
   font-size: 18px;
   padding-left: 0;
@@ -6519,7 +6519,7 @@ body .elementor-widget:not(:last-child) {
 div.elementor-widget-heading .elementor-heading-title {
   color: #1a1a1a;
   font-weight: 400;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
 }
 
 .dark-scheme .elementor-widget-heading .elementor-heading-title {
@@ -6532,7 +6532,7 @@ div.elementor-widget-heading .elementor-heading-title {
 
 .elementor-default .elementor-widget-text-editor,
 .elementor-default .elementor-icon-list-text {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #555555;
   transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
@@ -6975,7 +6975,7 @@ div.elementor-widget-heading .elementor-heading-title {
   -moz-border-radius: 50%;
   border-radius: 50%;
   font-size: 11px;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -7277,7 +7277,7 @@ div.elementor-widget-heading .elementor-heading-title {
 }
 .woocommerce-mini-cart li a:not(.remove) {
   display: inline;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   font-size: 18px;
   color: #fff;
   font-weight: 500;
@@ -7285,7 +7285,7 @@ div.elementor-widget-heading .elementor-heading-title {
 }
 .woocommerce-mini-cart li .quantity {
   color: #9f9e9e;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   font-weight: 600;
   font-size: 14px;
   display: block;
@@ -7307,7 +7307,7 @@ div.elementor-widget-heading .elementor-heading-title {
 }
 .woocommerce-mini-cart__total strong {
   color: #fff;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   font-weight: 600;
   font-size: 22px;
 }
@@ -7325,7 +7325,7 @@ div.elementor-widget-heading .elementor-heading-title {
   border-radius: 0;
   font-weight: 600;
   letter-spacing: 0.5px;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   text-transform: uppercase;
   padding: 16px 30px;
   margin-right: 13px;
@@ -7469,7 +7469,7 @@ div.elementor-widget-heading .elementor-heading-title {
 }
 .side-panel-cinfo li.icon-list-item,
 .side-panel-cinfo li.icon-list-item a {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #555;
   transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
@@ -7479,7 +7479,7 @@ div.elementor-widget-heading .elementor-heading-title {
 }
 .side-panel-cinfo .icon-list-item,
 .side-panel-cinfo .icon-list-item a {
-  font-family: 'Raleway', Sans-serif;
+  font-family: 'Roboto', Sans-serif;
   line-height: 18px;
 }
 .side-panel-cinfo
@@ -7547,7 +7547,7 @@ section {
   background-image: url(https://via.placeholder.com/1920x500.png);
 }
 .pheader-about {
-  background-image: url(https://via.placeholder.com/1920x500.png);
+  background-image: url(./images/about-us/header.jpg);
 }
 .pheader-process {
   background-image: url(https://via.placeholder.com/1920x500.png);
@@ -7666,7 +7666,7 @@ section {
   color: #8f8f8f;
   font-size: 20px;
   font-weight: 400;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   line-height: 1;
   padding-bottom: 12px;
 }
@@ -7675,7 +7675,7 @@ section {
   margin-bottom: 15px;
   color: #1a1a1a;
   font-weight: 400;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
 }
 .process-classic p {
   margin-bottom: 0;
@@ -8025,7 +8025,7 @@ section {
   background-repeat: no-repeat;
 }
 .our-studio-detail {
-  background-image: url(https://via.placeholder.com/375x375.png);
+  background-image: url(./images/contact/elementor.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8426,7 +8426,7 @@ ol.style-default li:last-child {
   color: #1a1a1a;
   font-weight: 400;
   line-height: 1;
-  font-family: 'Raleway', Sans-serif;
+  font-family: 'Roboto', Sans-serif;
 }
 .portfolio-detail-info p:last-child {
   margin-bottom: 0;
@@ -8451,7 +8451,7 @@ ol.style-default li:last-child {
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 36px;
-  font-family: 'Raleway', Sans-serif;
+  font-family: 'Roboto', Sans-serif;
 }
 .portfolio-detail-info p:last-child {
   margin-bottom: 0;
@@ -8489,7 +8489,7 @@ ol.style-default li:last-child {
   line-height: 26px;
   font-weight: 500;
   font-size: 12px;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -8532,17 +8532,17 @@ ol.style-default li:last-child {
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
   color: transparent;
   text-transform: uppercase;
-  font-family: 'Titillium Web';
+  font-family: 'Roboto Web';
 }
 .tp-caption-main,
 .tp-caption {
-  font-family: 'Titillium Web';
+  font-family: 'Roboto Web';
 }
 .tp-desc {
   z-index: 10;
   font-weight: 500;
   color: #fff;
-  font-family: 'Raleway';
+  font-family: 'Roboto';
 }
 .rev-btn .octf-btn:before,
 .rev-btn .octf-btn:after {
@@ -8643,11 +8643,11 @@ ol.style-default li:last-child {
 }
 .caption-big-2,
 .tp-caption.title {
-  font-family: 'Titillium Web';
+  font-family: 'Roboto Web';
 }
 .tp-desc-2 {
   text-transform: uppercase;
-  font-family: 'Titillium Web';
+  font-family: 'Roboto Web';
 }
 .tp-caption .btn-details {
   color: #fff;
@@ -8703,7 +8703,7 @@ ol.style-default li:last-child {
   margin: 0;
   padding: 0;
   position: relative;
-  font-family: 'Titillium Web', Sans-serif;
+  font-family: 'Roboto Web', Sans-serif;
   font-size: 14.02px;
   text-transform: uppercase;
   margin-bottom: 40px;
@@ -8728,7 +8728,7 @@ ol.style-default li:last-child {
 .banner-desc-1 ul li span {
   color: #fff;
   font-weight: 400;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .banner-desc-1 ul li:hover span {
   color: #9f9e9e;
@@ -8743,7 +8743,7 @@ ol.style-default li:last-child {
 }
 .story-text {
   color: #fff;
-  font-family: 'Titillium Web', Sans-serif;
+  font-family: 'Roboto Web', Sans-serif;
   font-size: 30px;
   font-weight: 300;
   line-height: 48px;
@@ -8768,13 +8768,13 @@ ol.style-default li:last-child {
 }
 .story-author .story-title {
   color: #fff;
-  font-family: 'Titillium Web', Sans-serif;
+  font-family: 'Roboto Web', Sans-serif;
   font-weight: 400;
   margin-bottom: 6px;
 }
 .story-author .story-description {
   color: #d0cfcf;
-  font-family: 'Raleway', Sans-serif;
+  font-family: 'Roboto', Sans-serif;
   font-size: 14px;
   margin-bottom: 0;
   text-transform: uppercase;
@@ -8822,12 +8822,12 @@ ol.style-default li:last-child {
   font-size: 16px;
   margin-bottom: 0;
   line-height: 28px;
-  font-family: 'Raleway', Sans-serif;
+  font-family: 'Roboto', Sans-serif;
   font-weight: 400;
 }
 .top-info p {
   color: #c4c4c4;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   font-weight: 400;
   margin-bottom: 0;
 }
@@ -8941,7 +8941,7 @@ ol.style-default li:last-child {
 }
 .cta-2 h2 {
   color: #fff;
-  font-family: 'Titillium Web', Sans-serif;
+  font-family: 'Roboto Web', Sans-serif;
   font-size: 100px;
   font-weight: 200;
   margin-bottom: 15px;
@@ -9091,7 +9091,7 @@ ol.style-default li:last-child {
   padding: 180px 0 270px 0;
 }
 .banner-4 h2 {
-  font-family: 'Titillium Web', Sans-serif;
+  font-family: 'Roboto Web', Sans-serif;
   font-size: 72px;
   font-weight: 300;
   line-height: 80px;
@@ -9114,7 +9114,7 @@ ol.style-default li:last-child {
   position: relative;
   display: block;
   color: #1a1a1a;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   font-size: 14.02px;
   line-height: 18.03px;
   text-transform: uppercase;
@@ -9160,7 +9160,7 @@ ol.style-default li:last-child {
   color: #989898;
   font-size: 18px;
   font-weight: 600;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   line-height: 21px;
   position: relative;
   padding-left: 80px;
@@ -9320,7 +9320,7 @@ i {
   padding: 150px 0;
 }
 .cta-bg-img h2 {
-  font-family: 'Titillium Web', Sans-serif;
+  font-family: 'Roboto Web', Sans-serif;
   font-size: 100px;
   font-weight: 200;
   line-height: 1;
@@ -9349,14 +9349,14 @@ i {
   line-height: 1;
   font-weight: 200;
   text-transform: uppercase;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
 }
 .de-video-content .octf-btn {
   background-color: transparent;
   border: 2px solid #fff;
   padding: 15px 30px;
   line-height: 1;
-  font-family: 'Titillium Web', Sans-serif;
+  font-family: 'Roboto Web', Sans-serif;
   font-size: 13px;
   font-weight: 600;
 }
@@ -9498,7 +9498,7 @@ i {
 }
 .ot-testimonials.s-dark .testi-item .ttext:before {
   position: absolute;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   font-size: 200px;
   color: #fff;
   top: 23px;
@@ -9549,7 +9549,7 @@ i {
   font-size: 14px;
 }
 .footer-side-nav .footer-list-item .list-item-text {
-  font-family: 'Raleway', Sans-serif;
+  font-family: 'Roboto', Sans-serif;
   font-size: 14px;
   line-height: 18px;
   padding-left: 10px;
@@ -9571,7 +9571,7 @@ i {
 }
 .hero-content h2 {
   color: #ffffff;
-  font-family: 'Titillium Web', Sans-serif;
+  font-family: 'Roboto Web', Sans-serif;
   font-size: 90px;
   font-weight: 200;
   line-height: 100px;
@@ -9581,7 +9581,7 @@ i {
   position: absolute;
   width: 100%;
   text-align: center;
-  font-family: 'Titillium Web', Sans-serif;
+  font-family: 'Roboto Web', Sans-serif;
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
@@ -9600,7 +9600,7 @@ i {
   position: relative;
   display: block;
   color: #fff;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   font-size: 14.02px;
   line-height: 18.03px;
   text-transform: uppercase;
@@ -10362,7 +10362,7 @@ i {
   background: #fff;
   color: #1a1a1a;
   font-size: 13px;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Roboto Web', sans-serif;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -10527,7 +10527,7 @@ i {
 }
 .widget-footer a {
   color: #a3a3a3;
-  font-family: 'Raleway', Sans-serif;
+  font-family: 'Roboto', Sans-serif;
 }
 .widget-footer li {
   padding-bottom: 14px;
@@ -10656,7 +10656,7 @@ i {
 }
 .footer-bottom li a {
   color: #7b7b7b;
-  font-family: 'Raleway', Sans-serif;
+  font-family: 'Roboto', Sans-serif;
   font-size: 14px;
   line-height: 26px;
 }
@@ -10703,13 +10703,13 @@ i {
 
 #ajax-form label {
   display: block;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 30px;
   margin-bottom: 0;
 }
 .error {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 30px;
   letter-spacing: 1px;
@@ -10719,7 +10719,7 @@ i {
 #ajaxsuccess {
   color: #4bd48b;
   border: 1px solid #4bd48b;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 60px;
   height: 60px;
   display: none;
